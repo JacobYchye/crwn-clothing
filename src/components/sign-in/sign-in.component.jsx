@@ -30,8 +30,8 @@ class SignIn extends React.Component {
     const { email, password } = this.state;
     return (
       <div className="sign-in">
-        <h2>I already have an account</h2>
-        <span>Sign in with your email and password</span>
+        <h2>I Already Have An Account</h2>
+        <span>Sign In With Your Email and Password</span>
 
         <form onSubmit={this.handleSubmit}>
           <FormInput
